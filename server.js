@@ -17,7 +17,7 @@ app.get("/", (req, res) => {
   console.log("hello from server");
   res.send("hello");
 });
-app.post("/", (req, res) => {
+app.post("https://gnirala254.github.io/tru/", (req, res) => {
   console.log("succesfully reached post request");
   console.log(Date.now());
   console.log(req.body);
